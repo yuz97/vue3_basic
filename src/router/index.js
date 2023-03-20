@@ -26,6 +26,11 @@ const routes = [
       name: "types",
       component: () => import("../views/TypesView.vue"),
    },
+   {
+      path: "/inject",
+      name: "inject",
+      component: () => import("../views/ProvideInject.vue"),
+   },
 ];
 
 const router = createRouter({
